@@ -16,18 +16,18 @@ logging.getLogger('httpx').setLevel(logging.WARNING)
 logging.getLogger("pyrate_limiter").setLevel(logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 
-OWNER_ID = 6765826972
-sudo_users = ["6765826972", "6046482147"]
-GROUP_ID = -100
+OWNER_ID = 6550000741
+sudo_users = ["6550000741", "5054912509"]
+GROUP_ID = -1002028197914
 TOKEN = ""
 mongo_url = ""
-PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
-SUPPORT_CHAT = "Collect_em_support"
-UPDATE_CHAT = "Collect_em_support"
-BOT_USERNAME = "Collect_Em_AllBot"
-CHARA_CHANNEL_ID = -100
-api_id = 123
-api_hash = ""
+PHOTO_URL = ["https://telegra.ph/file/294ba8e235a9932b69a86.jpg", "https://telegra.ph/file/294ba8e235a9932b69a86.jpg"]
+SUPPORT_CHAT = "Grab_Your_Characters_6"
+UPDATE_CHAT = "Guess_You_Caracter_v1"
+BOT_USERNAME = "Grab_Your_Waifu_ixbot"
+CHARA_CHANNEL_ID = -1001873432374
+api_id = 20967639
+api_hash = "f0cc55917e860f93d2c9aaa4a7caa69c"
 
 
 application = Application.builder().token(TOKEN).build()
